@@ -1,5 +1,4 @@
 '''
-
 Once the orders are added to the stack, inside here we will update the status from pending to completed
 
 Stack - orders that are ready for shipment will be placed here

@@ -1,7 +1,5 @@
 '''
-Users interact with our system here!
-Run 
-`python main.py` OR `python3 main.py`
+Run `python main.py` OR `python3 main.py`
 '''
 from system.order_processing import OrderProcessingSystem
 from models.product import Product
@@ -34,7 +32,6 @@ def main():
     for product in product_catalog.displayInOrder():
         product.displayProductInformation()
 
-    
     while True:
         print("___________________________________________________________")
         print("\nPlease Enter Your Order Details:")
@@ -69,8 +66,6 @@ def main():
                     print("\nThank you for using ClassicCommerce!")
                     break
             
-
-
         # process the order in our system
         order = order_system.createOrder(
             customer_name,
@@ -109,11 +104,9 @@ def main():
     order_system.displayFulfilledOrders() # showing the stack after all orders are shipped
     print("\n___________________________________________________________")
 
-
     print("\nProduct Catalog After Orders Have Been Placed & Fulfilled: ")
     for product in product_catalog.displayInOrder():
         product.displayProductInformation()
-
 
 if __name__ == "__main__":
     main()

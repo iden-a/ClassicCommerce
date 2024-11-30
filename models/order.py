@@ -1,7 +1,5 @@
 '''
-
 Each order includes details such as customer information, list of products, and quantity requested.
-
     Visualizing the order object:
 
     order_id: 1,
@@ -11,8 +9,6 @@ Each order includes details such as customer information, list of products, and 
         {"product_id": 101, "name": "Laptop", "quantity": 1},
     ]
     status: pending
-
-
 '''
 from structures.bst import Tree
 

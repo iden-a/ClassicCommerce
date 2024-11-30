@@ -4,7 +4,6 @@ Order Queue - to manage incoming orders,
 Use a Queue to handle the incoming orders. 
 Orders are processed on a "first-come, first-served" basis, making Queue an ideal structure for this. 
 New orders are added to the back of the Queue, and processing always occurs at the front.
-
 '''
 
 class Queue:

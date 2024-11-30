@@ -8,7 +8,6 @@ insertion, and deletion. Each node in the BST contains details like product ID, 
 Search: Quickly find products by ID or name. 
 Add/Remove: Efficiently add new products to the catalog or remove out-of-stock items.
 Update: Adjust stock quantities as items are packed for orders.
-
 '''
 
 class Tree:

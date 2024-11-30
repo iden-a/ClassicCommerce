@@ -1,13 +1,9 @@
 '''
-
 Fulfillment Stack - to track the order fulfillment process
-
-Last In First Out
 
 Once an order is processed, it moves to the fulfillment stage, 
 where items are packed and readied for shipment. Use a Stack to simulate this "last-in, first-out" workflow. 
 This can reflect a real-world scenario where the most recently packed items might be the first ready for shipping.
-
 '''
 
 class Stack:

@@ -3,15 +3,11 @@ Each node that exists in the BST will be a product object.
 Each node in the BST contains details like product ID, name, price, and stock quantity.
 
         Visualizing the product object:
-
         product_id : 111,
         product_name : Product1,
         price: 99.99,
         quantity: 99
-
-
-Each product in the BST will be represented as an object rather than a hashmap
-
+Each product in the BST will be represented as an object
 '''
 class Product:
     def __init__(self, product_id, product_name, price, quantity):
